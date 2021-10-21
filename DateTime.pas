@@ -10,6 +10,8 @@ function DaysInYear(y:integer):integer;
 
 function DaysInYearRange(y1,y2:integer):integer;
 
+function SeconsInHours(h:integer):integer;
+
 implementation 
 
 function IsLeapYear(y:integer):boolean;
@@ -33,6 +35,11 @@ begin
 end;
 
 function DaysInYearRange(y1,y2:integer):integer;
+begin
+  
+end;
+
+function SeconsInHours(h:integer):integer;
 begin
   
 end;
