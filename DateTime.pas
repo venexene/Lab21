@@ -4,9 +4,9 @@ interface
 
 function IsLeapYear(y:integer):boolean;
 
+function LaterInYear(d1,d2:integer):integer;
 
-
-implementation
+implementation 
 
 function IsLeapYear(y:integer):boolean;
 begin
@@ -17,6 +17,12 @@ begin
   else
     result := False;
 end;
+
+function LaterInYear(d1,d2:integer):integer;
+begin
+  
+end;
+
 
 begin
   
